@@ -5,13 +5,6 @@ import 'react-calendar/dist/Calendar.css';
 import '../App.css';
 import heatmapData from '../json/heatmatpData.json';
 
-type HeatmapDataType = {
-  date: string;
-  value: number;
-  details: string;
-  market: number;
-};
-
 const PageContainer = styled.div`
   display: flex;
   justify-content: center;
